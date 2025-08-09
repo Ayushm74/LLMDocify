@@ -1,4 +1,4 @@
-# 🤖 AI Code-to-Documentation Generator
+# AI Code-to-Documentation Generator
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -8,18 +8,18 @@
 
 An intelligent command-line tool that automatically generates high-quality docstrings for Python functions and classes using state-of-the-art language models (DeepSeek, OpenAI). Perfect for developers who want to maintain clean, well-documented code without the manual effort.
 
-## ✨ Features
+## Features
 
-- 🧠 **AI-Powered**: Uses DeepSeek V3 or OpenAI models for intelligent documentation generation
-- 📝 **Comprehensive**: Generates docstrings for both functions and classes
-- 🚀 **CLI Interface**: Easy-to-use command-line tool with rich options
-- 🔄 **Git Integration**: Optional pre-commit hooks for automatic documentation
-- 📊 **Batch Processing**: Process entire directories of Python files
-- 🎯 **Smart Parsing**: Extracts function signatures, arguments, and return types
-- 📋 **Multiple Formats**: Supports Google-style docstrings with type hints
-- ⚡ **Fast & Efficient**: Optimized for speed with retry mechanisms
+-  **AI-Powered**: Uses DeepSeek V3 or OpenAI models for intelligent documentation generation
+-  **Comprehensive**: Generates docstrings for both functions and classes
+-  **CLI Interface**: Easy-to-use command-line tool with rich options
+-  **Git Integration**: Optional pre-commit hooks for automatic documentation
+-  **Batch Processing**: Process entire directories of Python files
+-  **Smart Parsing**: Extracts function signatures, arguments, and return types
+-  **Multiple Formats**: Supports Google-style docstrings with type hints
+-  **Fast & Efficient**: Optimized for speed with retry mechanisms
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ An intelligent command-line tool that automatically generates high-quality docst
    python main.py version
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -96,7 +96,7 @@ git add .
 git commit -m "Add new feature"
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 codex-docgen/
@@ -113,7 +113,7 @@ codex-docgen/
 └── README.md              # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -126,7 +126,7 @@ You can customize the AI prompts by editing the files in the `prompts/` director
 - `prompts/function_prompt.txt`: Template for function docstrings
 - `prompts/class_prompt.txt`: Template for class docstrings
 
-## 📊 Example Output
+## Example Output
 
 ### Input Function
 ```python
@@ -160,7 +160,7 @@ def calculate_fibonacci(n: int) -> int:
     return calculate_fibonacci(n - 1) + calculate_fibonacci(n - 2)
 ```
 
-## 🎯 Supported Models
+## Supported Models
 
 ### DeepSeek (Recommended)
 - **Model**: `deepseek-chat`
@@ -213,28 +213,9 @@ Show the version of the tool.
 python main.py version
 ```
 
-### Python API
 
-```python
-from parser import extract_functions, extract_classes
-from generator import generate_docstring, generate_class_docstring
 
-# Extract functions from source code
-functions = extract_functions(source_code)
 
-# Generate docstring for a function
-docstring = generate_docstring(function_code)
-
-# Extract classes from source code
-classes = extract_classes(source_code)
-
-# Generate docstring for a class
-class_docstring = generate_class_docstring(class_code)
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 ### Development Setup
 
@@ -246,44 +227,5 @@ We welcome contributions! Please feel free to submit a Pull Request. For major c
 6. Push to the branch: `git push origin feature/amazing-feature`
 7. Open a Pull Request
 
-## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [DeepSeek](https://www.deepseek.com/) for providing excellent code understanding models
-- [OpenAI](https://openai.com/) for GPT models
-- [HuggingFace](https://huggingface.co/) for model hosting and API
-- [Typer](https://typer.tiangolo.com/) for the beautiful CLI framework
-
-## 📈 Roadmap
-
-- [ ] JavaScript/TypeScript support
-- [ ] Java and C++ support
-- [ ] IDE integration (VS Code extension)
-- [ ] Local model support (Ollama integration)
-- [ ] Documentation quality scoring
-- [ ] Multi-language docstring generation
-- [ ] Code explanation feature
-- [ ] Automated testing integration
-
-## 🐛 Known Issues
-
-- Large files may hit API token limits
-- Complex nested functions might not parse correctly
-- Async functions with complex decorators may need manual review
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/codex-docgen/issues) page
-2. Create a new issue with detailed information
-3. Join our [Discord](https://discord.gg/your-server) for community support
-
----
-
-**Made with ❤️ by the AI Code Documentation Team**
-
-*Transform your code into beautiful documentation with the power of AI!* # LLMDocify
+*Transform your code into beautiful documentation with the power of AI!* 

@@ -1,0 +1,16 @@
+You are a professional software engineer helping a junior developer understand code.
+
+Generate a complete and well-formatted Python class docstring using standard practices for the class below. Include descriptions of the class purpose, its methods, and any important attributes.
+
+Follow these guidelines:
+1. Use Google-style docstring format
+2. Describe what the class represents and its purpose
+3. Document any important attributes or properties
+4. Mention key methods if they exist
+5. Include any important usage notes or examples if helpful
+6. Keep the docstring concise but informative
+
+Only return the docstring, nothing else.
+
+Class:
+{class_code} 
