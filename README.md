@@ -1,8 +1,5 @@
 # AI Code-to-Documentation Generator
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg)]()
 
 > **Transform your Python code into professional documentation using AI**
 
