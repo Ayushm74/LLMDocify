@@ -27,8 +27,8 @@ An intelligent command-line tool that automatically generates high-quality docst
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/codex-docgen.git
-   cd codex-docgen
+   git clone https://github.com/yourusername/LLMDocify.git
+   cd FileName
    ```
 
 2. **Install dependencies**
@@ -56,23 +56,23 @@ An intelligent command-line tool that automatically generates high-quality docst
 
 Generate documentation for a single file:
 ```bash
-python main.py docgen examples/sample.py
+python main.py
 ```
 
 ### Advanced Options
 
 ```bash
 # Generate with verbose output
-python main.py docgen examples/sample.py --verbose
+python main.py examples/sample.py --verbose
 
 # Save results to a file
-python main.py docgen examples/sample.py --output documented_sample.py
+python main.py examples/sample.py --output documented_sample.py
 
 # Process only functions (skip classes)
-python main.py docgen examples/sample.py --functions-only
+python main.py examples/sample.py --functions-only
 
 # Process only classes (skip functions)
-python main.py docgen examples/sample.py --classes-only
+python main.py examples/sample.py --classes-only
 
 # Process all Python files in a directory
 python main.py batch ./src --recursive --verbose
@@ -96,7 +96,7 @@ git commit -m "Add new feature"
 ## Project Structure
 
 ```
-codex-docgen/
+LLMDocify/
 ├── main.py                 # CLI entry point
 ├── parser.py               # Code parsing logic
 ├── generator.py            # AI doc generation logic
@@ -173,12 +173,7 @@ def calculate_fibonacci(n: int) -> int:
 
 ### CLI Commands
 
-#### `docgen`
-Generate documentation for a Python file.
 
-```bash
-python main.py docgen <file> [OPTIONS]
-```
 
 **Arguments:**
 - `file`: Path to the Python file to process
