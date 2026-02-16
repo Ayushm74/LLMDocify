@@ -7,7 +7,7 @@ An intelligent command-line tool that automatically generates high-quality docst
 
 ## Features
 
--  **AI-Powered**: Uses DeepSeek V3 or OpenAI models for intelligent documentation generation
+-  **AI-Powered**: Uses DeepSeek V3 or OpenAI models for intelligent documentation 
 -  **Comprehensive**: Generates docstrings for both functions and classes
 -  **CLI Interface**: Easy-to-use command-line tool with rich options
 -  **Git Integration**: Optional pre-commit hooks for automatic documentation
