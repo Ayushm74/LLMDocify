@@ -9,7 +9,7 @@ An intelligent command-line tool that automatically generates high-quality docst
 
 -  **AI-Powered**: Uses DeepSeek V3 or OpenAI models for intelligent documentation 
 -  **Comprehensive**: Generates docstrings for both functions and classes
--  **CLI Interface**: Easy-to-use command-line tool with rich options
+-  **CLI Interface**: Easy-to-use command-line tool with options
 -  **Git Integration**: Optional pre-commit hooks for automatic documentation
 -  **Batch Processing**: Process entire directories of Python files
 -  **Smart Parsing**: Extracts function signatures, arguments, and return types
